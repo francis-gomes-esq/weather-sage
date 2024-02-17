@@ -37,7 +37,7 @@ function getLocalStorageHistory() {
 	console.log(history);
 }
 // Function to fetch five-day weather forecast
-function fiveDayWeather() {
+function fiveDayWeather(lat, lon) {
 	var queryUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
 	fetch(queryUrl)
@@ -48,10 +48,12 @@ function fiveDayWeather() {
 			// Iterate through forecast data and display daily forecast for noon
 			for (let i = 0; i < data.list.length; i++) {
 				const element = data.list[i];
-
 				let startTime = element.dt_txt.split(' ')[1].split(':')[0];
+
 				if (startTime === '12') {
 					let html = `<div class="card" style="width: 12rem;">
+
+					
 					<div class="card-body">
     <h5 class="card-title">${element.dt_txt.split(' ')[0]}</h5>
 		<img src="https://openweathermap.org/img/wn/${
@@ -65,8 +67,16 @@ function fiveDayWeather() {
 
 					let div = document.createElement('section');
 					div.innerHTML = html;
-					forecastEl.appendChild();
+					forecastEl.appendChild(div);
 				}
 			}
 		});
 }
+
+searchBtn.addEventListener('click', function (event) {
+	event.preventDefault();
+
+	var cityName = document.getElementById('search-input').value;
+	console.log(cityName);
+	currentWeather(cityName);
+});
