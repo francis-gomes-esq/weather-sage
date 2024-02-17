@@ -33,9 +33,9 @@ N/A
 
 ## Usage
 
-1. Enter the city name in the search bar
-2. Click the "Search" button
-3. View the current weather details and the 5-day forecast for the specified city
+1. Enter the city name in the search bar.
+2. Click the "Search" button.
+3. View the current weather details and the 5-day forecast for the specified city.
 
 ## Demo
 
@@ -43,7 +43,9 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 
 ### Screenshots
 
--   ![weather sage](./assets/images/weather-sage.jpeg)
+-   ![weather sage](./assets/images/weather-sage.gif)
+
+-   ![weather sage](./assets/images/weather-sage-2.png)
 
 ### Animated Gifs
 
@@ -64,7 +66,7 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 
 ## Roadmap
 
-More work is required to get the application to where it needs to be. For example: CSS for styling, code refactoring, and testing
+More work is required to get the application to where it needs to be. For example: CSS for styling, code refactoring, and testing.
 
 ## Contributing
 
