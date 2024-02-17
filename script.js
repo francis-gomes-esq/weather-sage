@@ -1,6 +1,8 @@
 var apiKey = 'aee06ebf856f16e0213440b39a3aefc2';
-var city = 'london';
+// var city = 'london';
 var forecastEl = document.querySelector('#forecast');
+var searchBtn = document.getElementById('search-button');
+var searchHistory = JSON.parse(localStorage.getItem('history')) || [];
 
 // Function to fetch current weather data for a given city
 function currentWeather(city) {
@@ -27,4 +29,8 @@ function currentWeather(city) {
 			localStorage.setItem('history', JSON.stringify(searchHistory));
 			getLocalStorageHistory();
 		});
+}
+function getLocalStorageHistory() {
+	var history = localStorage.getItem('history');
+	console.log(history);
 }
