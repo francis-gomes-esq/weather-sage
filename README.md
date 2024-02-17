@@ -78,7 +78,7 @@ Contributions and improvement suggestions are welcome! Follow these steps to con
 
 ## License
 
-Weather Sage is licenced under the [MIT License](). For details, refer to the repo.
+Weather Sage is licenced under the [MIT License](https://github.com/francis-gomes-esq/weather-sage/tree/main?tab=MIT-1-ov-file). For details, refer to the repo.
 
 ---
 
