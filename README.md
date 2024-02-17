@@ -43,7 +43,8 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 
 ### Screenshots
 
--   ![weather sage](./assets/images/weather-sage.gif)
+-   ![weather sage](./assets/images/weather-sage.png)
+
 
 -   ![weather sage](./assets/images/weather-sage-2.png)
 
