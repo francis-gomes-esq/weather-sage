@@ -43,7 +43,7 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 
 ### Screenshots
 
--
+-   ![weather sage](./assets/images/weather-sage.jpeg)
 
 ### Animated Gifs
 
