@@ -73,6 +73,22 @@ function fiveDayWeather(lat, lon) {
 		});
 }
 
+// currentWeather(city)
+
+function displayHistory() {
+	console.log(searchHistory);
+
+	for (let i = 0; i < searchHistory.length; i++) {
+		const element = searchHistory[i];
+		console.log('Display history', i, element);
+		let cityButton = document.createElement('button');
+		cityButton.textContent = searchHistory[i];
+		var cityBtn = document.getElementById('cityBtn');
+		cityBtn.appendChild(cityButton);
+	}
+}
+displayHistory();
+
 searchBtn.addEventListener('click', function (event) {
 	event.preventDefault();
 
