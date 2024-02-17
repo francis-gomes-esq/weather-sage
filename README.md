@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-You can view the website via this link: ![]()
+You can view the website via this link: ![weather-sage](https://francis-gomes-esq.github.io/weather-sage/)
 
 ## Animated gifs
 
@@ -26,7 +26,7 @@ You can view the website via this link: ![]()
 
 ## Screenshots
 
--               ![alt text](assets/example.png)
+-                 ![alt text](assets/example.png)
 -   ![alt text](assets/example.png)
 
 ## Credits
