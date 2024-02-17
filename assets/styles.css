@@ -33,7 +33,7 @@ header {
 }
 
 #forecast div {
-	background-color: rgba(16, 10, 63, 0.955);
+	background-color: rgba(46, 32, 138, 0.955);
 	color: white;
 	margin-left: 10px;
 	padding-top: 15px;
@@ -41,4 +41,13 @@ header {
 
 #forecast div h1 {
 	font-size: 1.5rem;
+}
+#cityBtn button {
+	margin-bottom: 2px;
+	border-radius: 13px;
+}
+
+#cityBtn button:hover {
+	background-color: #0000ff;
+	color: white;
 }
