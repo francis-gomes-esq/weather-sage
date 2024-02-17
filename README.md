@@ -26,7 +26,7 @@ You can view the website via this link: ![weather-sage](https://francis-gomes-es
 
 ## Screenshots
 
--                 ![alt text](assets/example.png)
+-   ![alt text](assets/example.png)
 -   ![alt text](assets/example.png)
 
 ## Credits
