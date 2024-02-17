@@ -21,13 +21,7 @@ You can view the website via this link: ![weather-sage](https://francis-gomes-es
 
 ## Animated gifs
 
--   ![alt text](assets/example.png)
--   ![alt text](assets/example.png)
-
-## Screenshots
-
--   ![alt text](assets/example.png)
--   ![alt text](assets/example.png)
+-   ![alt text](./assets/images/weather-sage.gif)
 
 ## Credits
 
