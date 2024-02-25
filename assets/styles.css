@@ -26,6 +26,9 @@ header {
 
 #search-button {
 	margin-top: 10px;
+	width: 100%;
+	border: 2px solid black;
+	text-align: center;
 }
 
 #today {
@@ -50,4 +53,20 @@ header {
 #cityBtn button:hover {
 	background-color: #0000ff;
 	color: white;
+}
+
+.history-btn {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.weather-search {
+	width: 100%;
+}
+
+.current-weather-info {
+	border: 2px solid black;
+	padding: 15px;
+	display: none;
 }

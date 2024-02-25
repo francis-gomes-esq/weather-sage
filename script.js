@@ -6,6 +6,7 @@ var searchHistory = JSON.parse(localStorage.getItem('history')) || [];
 
 // Function to fetch current weather data for a given city
 function currentWeather(city) {
+	document.querySelector('.current-weather-info').style.display = 'block';
 	var queryUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
 	fetch(queryUrl)
@@ -21,8 +22,15 @@ function currentWeather(city) {
 			windEl.textContent = 'Wind ' + data.main.temp + 'KPH';
 			var humidityEl = document.getElementById('humidity');
 			humidityEl.textContent = ' Humidity ' + data.main.temp + '%';
+			var weatherIcon = document.createElement('img');
+			weatherIcon.setAttribute(
+				'src',
+				`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+			);
 			var dayEl = document.getElementById('date');
-			dayEl.textContent = dayjs().format('YYYY-MM-DD');
+			dayEl.textContent =
+				city + ' (' + dayjs().format('YYYY-MM-DD') + ')';
+			dayEl.append(weatherIcon);
 
 			fiveDayWeather(lon, lat);
 			searchHistory.push(city);
@@ -83,6 +91,7 @@ function displayHistory() {
 		console.log('Display history', i, element);
 		let cityButton = document.createElement('button');
 		cityButton.textContent = searchHistory[i];
+		cityButton.setAttribute('class', 'history-btn');
 		var cityBtn = document.getElementById('cityBtn');
 		cityBtn.appendChild(cityButton);
 	}
