@@ -45,10 +45,8 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 
 -   ![weather sage](./assets/images/weather-sage.png)
 
-<<<<<<< HEAD
-=======
+    > > > > > > > > > Temporary merge branch 2
 
->>>>>>> 9b59de8c8d40f32289b1996ae1d395bb398a3cc2
 -   ![weather sage](./assets/images/weather-sage-2.png)
 
 ### Animated Gifs
