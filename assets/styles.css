@@ -29,6 +29,7 @@ header {
 	width: 100%;
 	border: 2px solid black;
 	text-align: center;
+	background-color: lightskyblue;
 }
 
 #today {
@@ -63,11 +64,13 @@ header {
 }
 
 .weather-search {
-	width: 100;
+	width: 100%;
+	/* background: lightcyan; */
+	opacity: 0.4;
 }
 
 .current-weather-info {
-	border: 2px solid black;
+	border: 2px solid #0553fc;
 	padding: 15px;
 	display: none;
 }
