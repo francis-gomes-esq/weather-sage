@@ -50,7 +50,7 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 -   ![weather sage](./assets/images/weather-sage-1.png)
 -   ![weather sage](./assets/images/weather-sage-2.png)
 -   ![weather sage](./assets/images/weather-sage-3.png)
--   ![weather sage](./assets/images/weather-sage-3.png)
+-   ![weather sage](./assets/images/weather-sage-4.png)
 -   ![weather sage](./assets/images/weather-sage-5.png)
 
 ## Credits
