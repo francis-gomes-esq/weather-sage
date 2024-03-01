@@ -41,17 +41,17 @@ N/A
 
 You can interact with the Weather Sage App [here](https://francis-gomes-esq.github.io/weather-sage/)
 
-### Screenshots
-
--   ![weather sage](./assets/images/weather-sage.png)
-
-    > > > > > > > > > Temporary merge branch 2
-
--   ![weather sage](./assets/images/weather-sage-2.png)
-
 ### Animated Gifs
 
 -   ![weather sage](./assets/images/weather-sage.gif)
+
+### Screenshots
+
+-   ![weather sage](./assets/images/weather-sage-1.png)
+-   ![weather sage](./assets/images/weather-sage-2.png)
+-   ![weather sage](./assets/images/weather-sage-3.png)
+-   ![weather sage](./assets/images/weather-sage-3.png)
+-   ![weather sage](./assets/images/weather-sage-5.png)
 
 ## Credits
 
