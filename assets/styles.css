@@ -1,12 +1,7 @@
-/* * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
+:root {
+	--white: #ffffff;
+	--blue: #0553fc;
 }
-body {
-	min-height: 100vh;
-} */
 
 header {
 	background: rgb(2, 0, 36);
@@ -38,7 +33,7 @@ header {
 
 #forecast div {
 	background-color: rgba(29, 81, 252, 0.955);
-	color: #fff;
+	color: var(--white);
 	margin-left: 10px;
 	padding-top: 15px;
 }
@@ -53,8 +48,8 @@ header {
 }
 
 #cityBtn button:hover {
-	background-color: #0553fc;
-	color: #fff;
+	background-color: var(--blue);
+	color: var(--white);
 }
 
 .history-btn {
@@ -66,11 +61,11 @@ header {
 .weather-search {
 	width: 100%;
 	/* background: lightcyan; */
-	opacity: 0.4;
+	opacity: 0.6;
 }
 
 .current-weather-info {
-	border: 2px solid #0553fc;
+	border: 2px solid var(--blue);
 	padding: 15px;
 	display: none;
 }
