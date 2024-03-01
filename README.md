@@ -19,8 +19,8 @@ The Weather Sage weather dashboard was developed for travellers to enable them t
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Demo](#demo)
--   [Screenshots](#screenshots)
 -   [Animated Gifs](#animated-gifs)
+-   [Screenshots](#screenshots)
 -   [Credits](#credits)
 -   [List of Third Party Assets](#list-of-third-party-assets)
 -   [Roadmap](#roadmap)
@@ -50,7 +50,7 @@ You can interact with the Weather Sage App [here](https://francis-gomes-esq.gith
 -   ![weather sage](./assets/images/weather-sage-1.png)
 -   ![weather sage](./assets/images/weather-sage-2.png)
 -   ![weather sage](./assets/images/weather-sage-3.png)
--   ![weather sage](./assets/images/weather-sage-3.png)
+-   ![weather sage](./assets/images/weather-sage-4.png)
 -   ![weather sage](./assets/images/weather-sage-5.png)
 
 ## Credits
